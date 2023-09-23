@@ -4,31 +4,27 @@ const About = () => {
   return (
     <div
       name="ABOUT"
-      className="w-full h-screen text-violet-200 bg-gradient-to-b from-gray-900 to-black"
+      className="w-full h-screen text-stone-400 bg-gradient-to-b from-gray-900  to-black"
     >
       <div className="flex flex-col justify-start w-full h-full max-w-screen-lg mx-auto p-7">
-        <div className="pb-8">
-          <h2 className="inline text-4xl font-semibold duration-700 hover:text-5xl px-7 py-7">
+        <div className="pb-8 mt-16">
+          <h2 className="ml-1 text-3xl font-semibold text-amber-500 font-myName">
             ABOUT
           </h2>
         </div>
-        <div className="mt-20 text-2xl">
+        <div className=" text-2xl text-stone-400">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            blanditiis molestias iusto totam itaque harum veritatis mollitia
-            quia nisi, culpa hic laborum eveniet optio rem dolorum? Facere ullam
-            iusto quasi blanditiis cupiditate aliquam velit, sequi, temporibus
-            molestiae, voluptatum praesentium. Alias cum labore quisquam natus
-            officia minus tempore fuga iste nostrum.
+            Creative, self-starting, and ambitious Front-End Developer with 3
+            month of self learned experience in web development. I build
+            interactive user experiences (UX) using HTML, CSS, JavaScript, and
+            library like React.
           </p>
           <br />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-            accusantium accusamus voluptate. Explicabo, sequi consectetur harum
-            perspiciatis aut dignissimos, ullam possimus labore nisi aliquid
-            culpa exercitationem at sint ex delectus sit aspernatur numquam
-            consequuntur nihil natus magnam, autem vero. Quo iure perferendis
-            illo vel harum, corporis deleniti! Cum, incidunt corporis.
+            I have buit a 3-Dimension T-Shirt design web application using Three
+            JS and couple of e-commerce web applications using the above
+            mentioned languages and library. I thrive in a collaborative
+            environment and very much keen in learning about Tech.
           </p>
         </div>
       </div>

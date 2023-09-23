@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      myName: ["Great Vibes"],
+      myName: ["Mate SC"],
+      myBio: ["Kalam"],
     },
   },
   plugins: [],
