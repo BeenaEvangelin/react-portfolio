@@ -19,7 +19,7 @@ const Home = () => {
             from Chennai India. Crafting visually pleasing
             <strong>
               {" "}
-              user interfaces (UI) with smooth user experience (Ux) is my
+              user interfaces (UI) with smooth user experience (UX) is my
               passion.
             </strong>
           </h3>

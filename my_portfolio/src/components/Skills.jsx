@@ -67,13 +67,15 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className=" inline text-3xl font-semibold ml-1 text-amber-500 font-myName mt-8">
             SKILLS
           </p>
-          <p className="py-6">The technologies I've worked </p>
+          <p className="text-2xl text-stone-400  mt-5">
+            The technologies I've worked
+          </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

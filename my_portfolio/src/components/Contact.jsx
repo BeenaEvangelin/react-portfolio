@@ -8,10 +8,10 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
-            CONTACT ME
+          <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
+            CONTACT
           </h2>
-          <p className="py-4">
+          <p className="text-2xl text-stone-400">
             Submit the form below to discuss any job opportunities
           </p>
         </div>
@@ -44,14 +44,14 @@ const Contact = () => {
                 <label>Your Message: </label>
                 <textarea
                   name="message"
-                  rows="10"
+                  rows="7"
                   placeholder="Enter your message"
                   className="my-1 p-2 bg-transparent border-2 rounded-lg text-white focus:outline-none w-72"
                 ></textarea>
               </div>
             </div>
 
-            <button className="text-white  px-5 py-3 my-8 mx-auto flex bg-gradient-to-b from-yellow-500 to-amber-950  rounded-lg hover:scale-105 duration-500 ml-52">
+            <button className="text-white px-3 py-3 my-8 mx-auto flex bg-gradient-to-b from-yellow-500 to-amber-950  rounded-lg hover:scale-105 duration-500 ml-52">
               Let's discuss...
             </button>
           </form>

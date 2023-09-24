@@ -8,16 +8,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: ecommerceorganic,
+      code: "https://github.com/BeenaEvangelin/fruitastic-app",
     },
     {
       id: 2,
       src: reactecommerce,
+      code: "https://github.com/BeenaEvangelin/react-e-commerce-app/tree/main/shopsy",
     },
     {
       id: 3,
       src: tshirtdesign,
+      code: "https://github.com/BeenaEvangelin/react-3Ddesign-app",
     },
   ];
+
   return (
     <div
       name="PORTFOLIO"
@@ -25,26 +29,29 @@ const Portfolio = () => {
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
-          <h2 className="inline text-4xl font-semibold duration-700 hover:text-5xl px-7 py-7">
+          <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
             PORTFOLIO
           </h2>
-          <p className="py-6">Check my work here</p>
+          <p className="text-2xl text-stone-400 mt-5">Check my work here</p>
         </div>
         <div className="grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="rounded-lg shadow-lg shadow-gray-600">
+          {portfolios.map(({ id, src, code }) => (
+            <div key={id} className="rounded-lg shadow-lg shadow-gray-600 ">
               <img
                 src={src}
                 alt=""
                 className="duration-500 rounded-md hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-teal-700 to-blue-700">
+              <div className="flex items-center justify-center rounded-lg">
+                <a className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-fuchsia-950  to-indigo-950 text-white">
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-rose-600 to-pink-500">
+                </a>
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-indigo-950 to-fuchsia-950 text-white"
+                  href={code}
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

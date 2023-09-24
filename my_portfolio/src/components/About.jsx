@@ -7,12 +7,12 @@ const About = () => {
       className="w-full h-screen text-stone-400 bg-gradient-to-b from-gray-900  to-black"
     >
       <div className="flex flex-col justify-start w-full h-full max-w-screen-lg mx-auto p-7">
-        <div className="pb-8 mt-16">
+        <div className="mt-32 pb-8 md:mt-44">
           <h2 className="ml-1 text-3xl font-semibold text-amber-500 font-myName">
             ABOUT
           </h2>
         </div>
-        <div className=" text-2xl text-stone-400">
+        <div className="text-2xl text-stone-400">
           <p>
             Creative, self-starting, and ambitious Front-End Developer with 3
             month of self learned experience in web development. I build
