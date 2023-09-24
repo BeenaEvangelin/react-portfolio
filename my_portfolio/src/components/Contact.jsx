@@ -1,4 +1,5 @@
 import React from "react";
+import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
       className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-900 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className="pt-16">
           <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
             CONTACT
           </h2>

@@ -68,47 +68,12 @@ const Socials = () => {
         </>
       ),
       href: "https://indeed.com",
-    },
-    {
-      id: 6,
-      child: (
-        <>
-          Facebook
-          <BsFacebook
-            size={30}
-            className="bg-white rounded-3xl text-blue-600 "
-          />
-        </>
-      ),
-      href: "https://indeed.com",
-    },
-    {
-      id: 7,
-      child: (
-        <>
-          Twitter <BsTwitter size={30} className=" text-blue-400 " />
-        </>
-      ),
-      href: "https://indeed.com",
-    },
-    {
-      id: 8,
-      child: (
-        <>
-          Instagram
-          <BsInstagram
-            size={30}
-            className="rounded-sm text-white bg-gradient-to-t from-amber-600  via-red-600 to-violet-700 "
-          />
-        </>
-      ),
-      href: "https://indeed.com",
       style: "rounded-br-lg",
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[20%] left-0 fixed ">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
       <ul>
         {links.map(({ id, child, href, download, style }) => (
           <li
