@@ -39,16 +39,16 @@ const Footer = () => {
     },
   ];
   return (
-    <div name="OTHERS" className=" bg-gray-900  text-white  ">
+    <div name="OTHERS" className=" bg-gray-900  text-white">
       <div className="flex flex-row text-center">
         {touch.map(({ id, child, href }) => (
-          <ul key={id} className={"flex flex-row"}>
-            <a href={href} className={"mx-5 mt-4"}>
+          <ul key={id} className={"flex flex-row ml-10"}>
+            <a href={href} className={"mx-4  mt-4"}>
               {child}
             </a>
           </ul>
         ))}
-        <span className="flex text-center  mt-4 pb-4 px-10 lg:ml-56">
+        <span className="flex text-center  mt-4 pb-4 lg:ml-56">
           <LiaCopyrightSolid size={25} />
           Copyright 2023. All rights reserved. Developed by Beena Evangelin
           Gracia.

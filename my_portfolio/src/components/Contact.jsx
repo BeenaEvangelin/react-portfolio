@@ -24,7 +24,6 @@ const Contact = () => {
           >
             <div className="mx-32">
               <div className="py-2 px-2 text-white">
-                <label>Name: </label>
                 <input
                   type="text"
                   name="name"
@@ -33,7 +32,6 @@ const Contact = () => {
                 />
               </div>
               <div className="py-2 px-2 text-white">
-                <label>Email: </label>
                 <input
                   type="text"
                   name="email"
@@ -42,7 +40,6 @@ const Contact = () => {
                 />
               </div>
               <div className="py-2 px-2 text-white">
-                <label>Your Message: </label>
                 <textarea
                   name="message"
                   rows="7"
