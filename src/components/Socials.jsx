@@ -17,7 +17,7 @@ const Socials = () => {
       child: (
         <>
           LinkedIn
-          <BsLinkedin size={30} className="bg-white rounded-md text-blue-600" />
+          <BsLinkedin size={30} className="text-blue-600 bg-white rounded-md" />
         </>
       ),
       href: "https://linkedin.com",
@@ -28,7 +28,7 @@ const Socials = () => {
       child: (
         <>
           Github{" "}
-          <BsGithub size={30} className="bg-black rounded-3xl text-white" />
+          <BsGithub size={30} className="text-white bg-black rounded-3xl" />
         </>
       ),
       href: "https://github.com/BeenaEvangelin",
@@ -40,7 +40,7 @@ const Socials = () => {
           Mail{" "}
           <BiLogoGmail
             size={30}
-            className=" text-red-800 bg-white rounded-2xl"
+            className="text-red-800 bg-white rounded-2xl"
           />
         </>
       ),
@@ -63,7 +63,7 @@ const Socials = () => {
           Indeed
           <SiIndeed
             size={30}
-            className="rounded-2xl text-indigo-900 bg-white"
+            className="text-indigo-900 bg-white rounded-2xl"
           />
         </>
       ),
