@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Socials from "./components/Socials";
 import About from "./components/About";
-import Portfolio from "./components/portfolio";
+import Portfolio from "./components/Portfolio";
 import Skills from "./components/skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
