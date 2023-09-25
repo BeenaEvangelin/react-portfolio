@@ -5,52 +5,52 @@ const Contact = () => {
   return (
     <div
       name="CONTACT"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-900 p-4 text-white"
+      className="w-full h-screen p-4 text-white bg-gradient-to-b from-black via-black to-gray-900"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col justify-center h-full max-w-screen-lg p-4 mx-auto">
         <div className="pt-28 lg:pt-16">
-          <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
+          <h2 className="inline ml-1 text-3xl font-semibold text-amber-500 font-myName">
             CONTACT
           </h2>
           <p className="text-2xl text-stone-400">
             Submit the form below to discuss any job opportunities
           </p>
         </div>
-        <div className=" flex justify-center items-center">
+        <div className="flex items-center">
           <form
             action="https://getform.io/f/29039527-e1ca-42a1-ba33-a31ca01310e1"
             method="POST"
             className="flex flex-col w-full md:w-1/2"
           >
-            <div className="mx-32">
-              <div className="py-2 px-2 text-white">
+            <div>
+              <div className="px-2 py-2 text-white">
                 <input
                   type="text"
                   name="name"
                   placeholder="Enter your name"
-                  className="my-1 p-2 bg-transparent border-2 rounded-lg focus:outline-none  w-72"
+                  className="p-2 my-1 bg-transparent border-2 rounded-lg focus:outline-none w-72"
                 />
               </div>
-              <div className="py-2 px-2 text-white">
+              <div className="px-2 py-2 text-white">
                 <input
                   type="text"
                   name="email"
                   placeholder="Enter your email"
-                  className="my-1 p-2 bg-transparent border-2 rounded-lg focus:outline-none  w-72"
+                  className="p-2 my-1 bg-transparent border-2 rounded-lg focus:outline-none w-72"
                 />
               </div>
-              <div className="py-2 px-2 text-white">
+              <div className="px-2 py-2 text-white">
                 <textarea
                   name="message"
                   rows="7"
                   placeholder="Enter your message"
-                  className="my-1 p-2 bg-transparent border-2 rounded-lg  focus:outline-none w-72"
+                  className="p-2 my-1 bg-transparent border-2 rounded-lg focus:outline-none w-72"
                 ></textarea>
               </div>
             </div>
 
-            <button className="text-white px-3 py-3 my-3 mx-auto flex bg-gradient-to-b from-yellow-500 to-amber-950  rounded-lg hover:scale-105 duration-500 ml-52">
-              Let's discuss...
+            <button className="flex w-32 px-10 py-3 my-3 ml-24 text-lg text-white duration-500 rounded-lg bg-gradient-to-b from-yellow-500 to-amber-950 hover:scale-105">
+              Submit
             </button>
           </form>
         </div>

@@ -10,7 +10,7 @@ const Footer = () => {
         <>
           <BsFacebook
             size={30}
-            className="bg-white rounded-3xl text-blue-600 "
+            className="text-blue-600 bg-white rounded-3xl "
           />
         </>
       ),
@@ -20,7 +20,7 @@ const Footer = () => {
       id: 2,
       child: (
         <>
-          <BsTwitter size={30} className=" text-blue-400 " />
+          <BsTwitter size={30} className="text-blue-400 " />
         </>
       ),
       href: "https://twitter.com/",
@@ -31,7 +31,7 @@ const Footer = () => {
         <>
           <BsInstagram
             size={30}
-            className="rounded-sm text-white bg-gradient-to-t from-amber-600  via-red-600 to-violet-700"
+            className="text-white rounded-sm bg-gradient-to-t from-amber-600 via-red-600 to-violet-700"
           />
         </>
       ),
@@ -39,16 +39,16 @@ const Footer = () => {
     },
   ];
   return (
-    <div name="OTHERS" className=" bg-gray-900  text-white">
-      <div className="flex flex-row text-center">
+    <div name="OTHERS" className="text-white bg-gray-900 ">
+      <div className="flex flex-row ml-24 text-center">
         {touch.map(({ id, child, href }) => (
           <ul key={id} className={"flex flex-row ml-10"}>
-            <a href={href} className={"mx-4  mt-4"}>
+            <a href={href} className={"mt-4"}>
               {child}
             </a>
           </ul>
         ))}
-        <span className="flex text-center  mt-4 pb-4 lg:ml-56">
+        <span className="flex pb-4 mt-4 text-center lg:ml-56">
           <LiaCopyrightSolid size={25} />
           Copyright 2023. All rights reserved. Developed by Beena Evangelin
           Gracia.

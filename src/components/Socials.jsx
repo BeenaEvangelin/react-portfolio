@@ -27,7 +27,7 @@ const Socials = () => {
       id: 2,
       child: (
         <>
-          Github{" "}
+          Github
           <BsGithub size={30} className="text-white bg-black rounded-3xl" />
         </>
       ),
@@ -37,7 +37,7 @@ const Socials = () => {
       id: 3,
       child: (
         <>
-          Mail{" "}
+          Mail
           <BiLogoGmail
             size={30}
             className="text-red-800 bg-white rounded-2xl"
@@ -55,20 +55,6 @@ const Socials = () => {
       ),
       href: "/JOB CV.pdf",
       download: true,
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          Indeed
-          <SiIndeed
-            size={30}
-            className="text-indigo-900 bg-white rounded-2xl"
-          />
-        </>
-      ),
-      href: "https://indeed.com",
-      style: "rounded-br-lg",
     },
   ];
 
