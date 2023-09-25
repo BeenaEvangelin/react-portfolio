@@ -10,6 +10,7 @@ const NavBar = () => {
     { id: 3, link: "PORTFOLIO" },
     { id: 4, link: "SKILLS" },
     { id: 5, link: "CONTACT" },
+    { id: 6, link: "OTHERS" },
   ];
   const [nav, setNav] = useState(false);
   return (

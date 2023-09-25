@@ -14,8 +14,7 @@ const Footer = () => {
           />
         </>
       ),
-      href: "https://indeed.com",
-      style: "ml-80",
+      href: "https://www.facebook.com",
     },
     {
       id: 2,
@@ -24,7 +23,7 @@ const Footer = () => {
           <BsTwitter size={30} className=" text-blue-400 " />
         </>
       ),
-      href: "https://indeed.com",
+      href: "https://twitter.com/",
     },
     {
       id: 3,
@@ -36,31 +35,25 @@ const Footer = () => {
           />
         </>
       ),
-      href: "https://indeed.com",
+      href: "https://www.instagram.com/",
     },
   ];
   return (
-    <div className=" bg-gray-900 text-white">
-      <div className="flex flex-row ml-96">
-        {touch.map(({ id, child, href, style }) => (
-          <ul key={id} className={"flex " + " " + style}>
-            <a
-              href={href}
-              className={
-                "px-3 flex items-center justify-between w-full text-stone-300"
-              }
-            >
+    <div name="OTHERS" className=" bg-gray-900  text-white  ">
+      <div className="flex flex-row text-center">
+        {touch.map(({ id, child, href }) => (
+          <ul key={id} className={"flex flex-row"}>
+            <a href={href} className={"mx-5 mt-4"}>
               {child}
             </a>
           </ul>
         ))}
+        <span className="flex text-center  mt-4 pb-4 px-10 lg:ml-56">
+          <LiaCopyrightSolid size={25} />
+          Copyright 2023. All rights reserved. Developed by Beena Evangelin
+          Gracia.
+        </span>
       </div>
-
-      <span className="flex text-center sm:px-12 text-lg pb-6 py-5 lg:px-96 lg:ml-10">
-        <LiaCopyrightSolid size={25} />
-        Copyright 2023. All rights reserved. Developed by Beena Evangelin
-        Gracia.
-      </span>
     </div>
   );
 };

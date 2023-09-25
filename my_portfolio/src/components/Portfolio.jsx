@@ -28,7 +28,7 @@ const Portfolio = () => {
       className="w-full text-blue-300 bg-gradient-to-b from-black to-gray-900 md:h-screen"
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
-        <div className="pb-8">
+        <div className="pb-8 mt-20 lg:mt-0">
           <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
             PORTFOLIO
           </h2>

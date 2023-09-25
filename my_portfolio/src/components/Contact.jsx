@@ -8,7 +8,7 @@ const Contact = () => {
       className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-900 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pt-16">
+        <div className="pt-28 lg:pt-16">
           <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
             CONTACT
           </h2>
@@ -47,12 +47,12 @@ const Contact = () => {
                   name="message"
                   rows="7"
                   placeholder="Enter your message"
-                  className="my-1 p-2 bg-transparent border-2 rounded-lg text-white focus:outline-none w-72"
+                  className="my-1 p-2 bg-transparent border-2 rounded-lg  focus:outline-none w-72"
                 ></textarea>
               </div>
             </div>
 
-            <button className="text-white px-3 py-3 my-8 mx-auto flex bg-gradient-to-b from-yellow-500 to-amber-950  rounded-lg hover:scale-105 duration-500 ml-52">
+            <button className="text-white px-3 py-3 my-3 mx-auto flex bg-gradient-to-b from-yellow-500 to-amber-950  rounded-lg hover:scale-105 duration-500 ml-52">
               Let's discuss...
             </button>
           </form>

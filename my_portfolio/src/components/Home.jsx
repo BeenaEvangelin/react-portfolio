@@ -9,12 +9,12 @@ const Home = () => {
       name="HOME"
       className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-900"
     >
-      <div className="flex flex-row items-center justify-center h-full max-w-screen-lg px-3 mx-auto ml-36">
+      <div className="flex flex-row items-center justify-center ml-4 h-full max-w-screen-lg px-1 mx-auto  lg:ml-36">
         <div className="flex flex-col items-center justify-center h-full">
-          <h1 className="ml-1 text-6xl text-stone-400 font-myName">
+          <h1 className="ml-1 text-5xl text-stone-400 font-myName md:text-6xl mt-8">
             Hey, I'm Beena Evangelin
           </h1>
-          <h3 className="max-w-lg py-5 ml-1 text-2xl text-amber-200 font-myBio">
+          <h3 className="max-w-lg py-5 ml-1 md:text-3xl text-amber-200 font-myBio text-lg">
             I'm a <strong>self taught frontend software developer </strong>
             from Chennai India. Crafting visually pleasing
             <strong>
