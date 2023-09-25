@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Socials from "./components/Socials";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Skills from "./components/skills";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 function App() {
