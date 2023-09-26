@@ -9,6 +9,7 @@ const Portfolio = () => {
       id: 1,
       src: ecommerceorganic,
       code: "https://github.com/BeenaEvangelin/fruitastic-app",
+      demo: "https://fruitastic-app.vercel.app/",
     },
     {
       id: 2,
@@ -35,7 +36,7 @@ const Portfolio = () => {
           <p className="text-2xl text-stone-400 mt-5">Check my work here</p>
         </div>
         <div className="grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0">
-          {portfolios.map(({ id, src, code }) => (
+          {portfolios.map(({ id, src, code, demo }) => (
             <div key={id} className="rounded-lg shadow-lg shadow-gray-600 ">
               <img
                 src={src}
@@ -43,7 +44,10 @@ const Portfolio = () => {
                 className="duration-500 rounded-md hover:scale-105"
               />
               <div className="flex items-center justify-center rounded-lg">
-                <a className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-fuchsia-950  to-indigo-950 text-white">
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-fuchsia-950  to-indigo-950 text-white"
+                  href={demo}
+                >
                   Demo
                 </a>
                 <a
