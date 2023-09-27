@@ -14,7 +14,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: reactecommerce,
-      code: "https://github.com/BeenaEvangelin/react-e-commerce-app/tree/main/shopsy",
+      code: "https://github.com/BeenaEvangelin/react-e-commerce-app",
+      demo: "react-e-commerce-app-eta.vercel.app",
     },
     {
       id: 3,
@@ -30,10 +31,10 @@ const Portfolio = () => {
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
         <div className="pb-8 mt-20 lg:mt-0">
-          <h2 className="inline text-3xl font-semibold ml-1 text-amber-500 font-myName">
+          <h2 className="inline ml-1 text-3xl font-semibold text-amber-500 font-myName">
             PORTFOLIO
           </h2>
-          <p className="text-2xl text-stone-400 mt-5">Check my work here</p>
+          <p className="mt-5 text-2xl text-stone-400">Check my work here</p>
         </div>
         <div className="grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0">
           {portfolios.map(({ id, src, code, demo }) => (
@@ -45,13 +46,13 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center rounded-lg">
                 <a
-                  className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-fuchsia-950  to-indigo-950 text-white"
+                  className="w-1/2 px-6 py-3 m-4 text-white duration-200 rounded-lg bg-gradient-to-r from-fuchsia-950 to-indigo-950"
                   href={demo}
                 >
                   Demo
                 </a>
                 <a
-                  className="w-1/2 px-6 py-3 m-4 duration-200 rounded-lg bg-gradient-to-r from-indigo-950 to-fuchsia-950 text-white"
+                  className="w-1/2 px-6 py-3 m-4 text-white duration-200 rounded-lg bg-gradient-to-r from-indigo-950 to-fuchsia-950"
                   href={code}
                 >
                   Code
