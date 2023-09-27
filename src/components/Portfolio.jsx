@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: reactecommerce,
-      code: "https://github.com/BeenaEvangelin/react-e-commerce-app",
+      code: "https://github.com/BeenaEvangelin/e-commerce-react-app",
       demo: "https://e-commerce-react-app-pied.vercel.app/",
     },
     {
